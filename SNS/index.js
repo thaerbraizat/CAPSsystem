@@ -6,10 +6,10 @@ AWS.config.update({region: 'us-east-1'});
 const sns = new AWS.SNS();
 
 
-const topic = 'arn:aws:sns:us-east-1:941965416614:401d11sns';
+const topic = 'arn:aws:sns:us-east-1:462293665935:CAPSsystem';
 const msg = {
-    title: 'msg2',
-    content: 'how r u?'
+    title: 'teasttast',
+    content: 'how sholud i meet u?'
 };
 
 const params = {
